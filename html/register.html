@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Victoria Sosa"> 
+		<title> Register Login or Book a Session </title>
+		<link rel="stylesheet" href="../css/gphc.css"> 
+	</head>
+	
+	<body>
+		<a id="top"></a>
+		<header>
+			<h1> Ministry of Sport and Community Development <br> Homework Center Initiative </h1>
+		</header>
+			
+		<div id="H-Bar">
+			<nav>
+				<ul> 
+					<li> <a href="../index.html"> Home </a></li>
+					<li> <a href="about.html"> About Us </a></li>
+					<li> <a href="register.html" class="active"> Register/Login </a></li>
+					<li> <a href="programs_and_schedules.html"> Programs/Schedules </a></li>
+					<li> <a href="testimonials.html"> Testimonials </a></li>
+					<li> <a href="resources.html"> Resources </a></li>
+					<li> <a href="contact.html"> Contact Us </a></li>
+				</ul>
+			</nav>
+		</div>
+			
+		<main>
+			<h2> Greenvale Park Homework Center <br> Register/Login </h2>
+			<hr> <br>
+			
+			
+			<div id="container">
+			
+				<div id="contentleft">
+					
+					<form method="post" action="gphw-welcome.html">
+					
+						<fieldset>
+						<legend> Parent/Guardian Information&colon; </legend> <br>
+							
+							<label class="formatLabel"> Title&colon; </label>
+								<select id="title" name="<title">
+									<option value="" selected="selected"> Select a title </option>
+									<option value="Ms."> Ms. </option>
+									<option value="Ms."> Mr. </option>
+									<option value="Ms."> Mrs. </option>
+								</select> <br> <br>
+							<label class="formatLabel"> Full Name&colon; </label>
+								<input type="text" id="fname" name="fname" size="30"> <br> <br>
+							
+							<label class="formatLabel"> Email&colon; </label>
+								<input type="email" id="e_add" name="e_add" size="30"> <br> <br>
+											
+						</fieldset>				
+				
+						<fieldset>
+							<legend> Student Registration Information&colon; </legend>
+							
+								<label class="formatLabel"> Student Full Name &colon; </label>
+									<input type="text" id="name" name="fname" size="30"> <br> <br>
+									
+								
+								<label class="formatLabel"> Date of Birth &colon; </label>
+									<input type="date" id="dob" name="dob"> <br> <br>
+								
+								<label class="formatLabel"> Select Subjects&colon; </label>
+									Mathematics <input type="checkbox" id="f_site" name="site" value="Mathematics"> &nbsp; &nbsp; 
+									English <input type="checkbox" id="m_site" name="site" value="English"> &nbsp; &nbsp;
+									Science <input type="checkbox" id="p_site" name="site" value="Science"> &nbsp; &nbsp; 
+									ICT <input type="checkbox" id="w_site" name="site" value="ICT"> &nbsp; &nbsp; <br> <br>
+						</fieldset>
+						
+						<fieldset>
+							<legend> Login Information&colon; </legend>
+						
+								<label class="formatLabel"> Create Username&colon; </label>
+								
+									<input type="text" id="user" name="user"> <br> <br>	
+								<label class="formatLabel"> Create Password&colon; </label>
+									<input type="password" id="p_wd" name="p-wd"> <br> <br>
+																	
+								<label class="formatLabel"> Confirm Password&colon; </label>
+									<input type="password" id="cp_wd" name="cp-wd"> <br> <br>
+						</fieldset>
+					
+					
+				
+						<div class="buttons">
+							<input type="submit" value="SUBMIT"> &nbsp; &nbsp;
+							<input type="reset" value="CLEAR">
+						
+						</div>
+					</form>	
+							
+						
+				</div>					
+				
+				<div id="contentright">
+						
+						<form method="post" action="gphw-welcome.html">		
+							<fieldset> 
+								<legend> Login&colon; </legend>
+									<label class="formatLabel"> Username&colon; </label>
+										<input type="text" id="text" name="name"> <br> <br>
+									<label class="formatLabel"> Password&colon; </label>
+										<input type="password" id="login_pwd" name="p-wd"> <br> <br>
+								
+								<div class="buttons">
+										<input type="submit" value="LOGIN"> &nbsp; &nbsp;
+								
+								</div> <br> <br>
+							</fieldset> 
+						</form>
+						
+						<div>					
+							<img src="../img/highfive.jpg" alt="Motivation for homework image" class="center"> <!--Photo courtesy from website https://www.istockphoto.com/search/2/image-film?phrase=homework%20help -->
+						</div> <br>	
+				</div>		
+			</div>
+								
+				<div>			
+					<div class="ctalink"> 						
+						<a href="programs_and_schedules.html" id="cta2"> Book a Session  </a> 		
+					</div>				
+				</div>
+			
+		</main>	
+
+			<footer>
+				<h4> &copy; 2025 Ministry of Sport &amp; Community Development - Greenvale Park Homework Center. All rights reserved.</h4> 
+			</footer>
+		
+	</body>
+	
+</html>

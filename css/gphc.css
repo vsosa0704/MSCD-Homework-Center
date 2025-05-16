@@ -1,0 +1,217 @@
+/*General styles*/ 
+
+* { 
+	margin:0; 
+	padding:0; 
+	box-sizing:border-box;
+	line-height:1.6;
+	} 
+
+header { 
+	width:auto; 
+	height:auto; 
+	background-image:url('../img/mscd_logo.jpg'); /*Taken from Sweet TnT Magazine, advertising a vacancy in the Ministry of Sport and Community Development https://sweettntmagazine.com/forums/topic/ministry-of-sport-and-community-development-vacancy/ */
+	color:#F5A623;
+	background-repeat:no-repeat;
+	text-align:center;
+	background-color:#1F3F62;
+	}
+	
+body {
+	font-family:"Times New Roman";
+	font-size:1.25rem;
+	}
+	
+.center {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+#container {
+	display:grid;
+	width:90%;
+	grid-template-columns:50% 50%;
+	grid-gap:10px;
+	margin:0 auto;
+	}
+
+h1 { 
+	text-align:center; 
+	color:#fff; 
+	padding-top:25px; 
+	}
+	
+h3 {
+	margin:0px 15px;
+	}
+	
+h2 {
+	text-align:center;
+	color:#000;
+	text-transform:uppercase;
+	}
+	
+h4 {
+	text-align:center;
+	}
+	
+/* Remove the bullets, margins and padding from the list*/
+nav ul {
+	margin:0;
+	padding:10px;
+	overflow:hidden;
+	background-color:#F5A623;
+	}
+	
+nav li {
+	float:left;
+	}
+	
+
+div a { 
+	width:100px; 
+	padding:30px; 
+	font-size:1.5rem; 
+	color:#fff; 
+	text-decoration:none; 
+	text-transform:capitalize; 
+	font-weight:bold; 
+	}
+
+footer {
+	
+	padding:50px;
+	background-image:url('../img/logo.jpg'); 
+	color:#fff;
+	background-repeat:no-repeat;
+	background-color:#1F3F62;
+	text-align:center;
+	width:100%;
+	height:60px;
+	position:static;
+	}
+/* Homepage Styles */
+
+img {
+	max-width:100%;
+	height:auto;
+	padding:30px;
+	}
+	
+p 	{
+	text-align:justify;
+    margin:0px 15px;
+	}
+
+ul li {
+	display: block;
+	margin:0px 15px;
+	}
+/* "active" class on current link tells the user he/or she is on */
+
+.active {
+	background-color:#1F3F62;
+	}
+	
+
+
+#cta1, #cta2 {
+	display:inline-block;
+	padding:0.65rem 1.5rem;
+	width:15%;
+	font-size:1.5rem;
+	text-align:center;
+	text-decoration:none;
+	background-color:#1F3F62;
+	color:#fff;
+	border:2px solid transparent;
+	border-radius:10px;
+	padding:10px;
+	}
+	
+.ctalink {
+	text-align:center;
+	border-top:2px solid #ccc;
+	}
+	
+#contentleft li {
+    display: list-item;
+	margin-left:10px;
+	}
+	
+#contentleft ul {
+    margin-left:20px;
+	}
+	
+
+#cta1 {
+	background-color:#1F3F62;
+	}
+	
+#cta2 {
+	background-color:#F5A623;
+	}
+
+/* Form Controls */
+
+fieldset {
+	color:#1F3F62;
+	
+	}
+
+legend {
+	font-size:1.5rem;
+	font-weight:bold;
+	color:#1F3F62;
+	border-radius:5px
+	}
+	
+.formatLabel {
+	font-weight:bold;
+	color:#1F3F62;
+	display:inline-block;
+	width:175px;
+	font-family:"Times New Roman";
+	font-size:1.15rem;
+	}
+
+input, select textarea {
+	font-size:1.15rem;
+	}
+	
+#buttons, .buttons {
+	margin-left:100px;
+	}
+
+input[type=reset], input[type=submit] {
+	width:20%;
+	height:45px;
+	font-size:1rem;
+	font-weight:bold;
+	color:#fff;
+	border-radius:20px;
+	border:none;
+	}
+		
+input[type=reset] {
+	background-color:#ff7b00;
+	}
+	
+	
+input[type=submit] {
+	background-color:#008000;
+	}
+	
+/* Table Styles */
+
+table {
+	border:2px solid #1F3F62;
+
+/* Testimonials Page Styles */
+
+
+
+
+
+	
